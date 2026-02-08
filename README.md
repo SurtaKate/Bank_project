@@ -30,6 +30,8 @@ Install Playwright browsers: playwright install
 
 To run all tests: pytest
 Example: pytest tests/UI_Tests/test_login.py  
+run with the html report
+pytest tests/UI_Tests/test_login.py --html=reports/web_ui_report.html --self-contained-html
 To run a specific test file: pytest tests/UI_Tests/test_login.py
 
 #Test Cases
