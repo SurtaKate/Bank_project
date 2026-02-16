@@ -1,4 +1,4 @@
-from tests.locators.dashboard_locators import DashboardLocators
+from Bank_project.locators.dashboard_locators import DashboardLocators
 
 class DashboardPage:
     def __init__(self, page):

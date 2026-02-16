@@ -1,5 +1,5 @@
 from playwright.sync_api import Page
-from tests.locators.login_locators import LoginLocators
+from Bank_project.locators.login_locators import LoginLocators
 
 class LoginPage:
     def __init__(self, page: Page):
